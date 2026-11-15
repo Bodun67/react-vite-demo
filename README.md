@@ -9,4 +9,4 @@ npm install
 npm run dev
 ```
 
-Компонент `src/components/welcome.jsx` приймає `name` і показує персональне привітання. У `src/App.jsx` він використовується кілька разів із різними іменами.
+Компонент `src/components/welcome.jsx` приймає `name` і показує персональне привітання. У `src/App.jsx` компонент використовується з текстами `olen`, `bamper`, `hroshi` та `ta shashlyk`.
