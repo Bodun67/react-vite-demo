@@ -1,13 +1,17 @@
 import Welcome from './components/welcome'
+import Counter from './components/Counter'
 
 function App() {
   return (
-    <div className="welcome-list">
-      <Welcome name="olen" />
-      <Welcome name="bamper" />
-      <Welcome name="hroshi" />
-      <Welcome name="ta shashlyk" />
-    </div>
+    <main className="app-content">
+      <section className="welcome-list" aria-label="Welcome messages">
+        <Welcome name="olen" />
+        <Welcome name="bamper" />
+        <Welcome name="hroshi" />
+        <Welcome name="ta shashlyk" />
+      </section>
+      <Counter />
+    </main>
   )
 }
 

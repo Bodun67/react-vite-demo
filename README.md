@@ -1,6 +1,6 @@
-# React Welcome Demo
+# React Welcome + Counter Demo
 
-Навчальний React-проєкт на Vite, що демонструє створення компонента та передачу йому props.
+Навчальний React-проєкт на Vite. Демонструє повторне використання компонента `Welcome` із props та стан лічильника через `useState`.
 
 ## Запуск
 
@@ -9,4 +9,4 @@ npm install
 npm run dev
 ```
 
-Компонент `src/components/welcome.jsx` приймає `name` і показує персональне привітання. У `src/App.jsx` компонент використовується з текстами `olen`, `bamper`, `hroshi` та `ta shashlyk`.
+Кнопки Increment і Decrement змінюють count, Reset встановлює його назад у 0.
